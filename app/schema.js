@@ -118,7 +118,6 @@ const resolvers = {
                 const newInfo = { ...allInfos[0], fieldNodes: [pubNode] };
                 // Do whatever to get the data. It could be constructed query, or just delegate to schema
                 // 
-                console.log(pubNode);
                 delegateToSchema({
                     schema:info.schema,
                     operation:'query',
