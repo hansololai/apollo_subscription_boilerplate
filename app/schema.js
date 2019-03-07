@@ -92,7 +92,8 @@ const resolvers = {
             // Note there's a problem here, if the user did not ask for userId, then the parent do not
             // have  userId. Of course for a full stack graphQL server, this problem would have already been solved. 
             // Let's assume it is solve, after all, this is just to demonstrate subscription
-            return await User.findById(parent.userId);
+            const fullMessage = Message.findById(parent.id)
+            return await User.findById(fullMessage.userId);
         }
     },
     Mutation: {

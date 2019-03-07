@@ -9,11 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "apollo-server": "^2.4.8",
     "apollo-server-express": "^2.1.0",
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
+    "dotenv": "^6.2.0",
     "express": "^4.16.4",
     "graphql": "^14.1.1",
     "graphql-tools": "^3.0.1",
