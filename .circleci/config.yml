@@ -23,7 +23,7 @@ jobs:
             - v1-dependencies-
 
       - run: yarn install
-      - run: yarn install greenkeeper-lockfile
+      - run: yarn add greenkeeper-lockfile
 
       - save_cache:
           paths:
