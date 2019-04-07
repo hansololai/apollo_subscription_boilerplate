@@ -23,7 +23,7 @@ jobs:
             - v1-dependencies-
 
       - run: yarn install
-      - run: npm install -g greenkeeper-lockfile
+      - run: sudo npm install -g greenkeeper-lockfile
 
       - save_cache:
           paths:
