@@ -11,8 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "apollo-server": "^2.13.1",
-    "apollo-server-express": "^2.13.1",
+    "apollo-server": "^2.14.0",
+    "apollo-server-express": "^2.14.0",
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
