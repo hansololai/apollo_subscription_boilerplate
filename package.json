@@ -22,7 +22,7 @@
     "graphql": "^14.6.0",
     "graphql-tools": "^4.0.8",
     "http": "0.0.0",
-    "snyk": "^1.335.0"
+    "snyk": "^1.337.0"
   },
   "devDependencies": {
     "eslint": "^6.0.0",
